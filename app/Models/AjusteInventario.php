@@ -1,0 +1,1 @@
+<?php namespace App\Models; use Illuminate\Database\Eloquent\Model; class AjusteInventario extends Model { protected $table = 'ajustes_inventario'; protected $guarded = []; public function detalles(){return $this->hasMany(AjusteDetalle::class, 'ajuste_id');} }

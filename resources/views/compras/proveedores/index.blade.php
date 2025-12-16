@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content') <div class="p-6"><h1>Proveedores</h1><ul>@foreach($proveedores as $p)<li>{{$p->razon_social}}</li>@endforeach</ul></div> @endsection

@@ -1,0 +1,1 @@
+<?php namespace App\Models; use Illuminate\Database\Eloquent\Model; class Merma extends Model { protected $guarded=[]; public function item(){return $this->belongsTo(Item::class);} public function lote(){return $this->belongsTo(Lote::class);} }

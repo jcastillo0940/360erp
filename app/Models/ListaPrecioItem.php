@@ -1,0 +1,1 @@
+<?php namespace App\Models; use Illuminate\Database\Eloquent\Model; class ListaPrecioItem extends Model { protected $table='lista_precio_items'; protected $guarded=[]; public function item(){return $this->belongsTo(Item::class);} }
